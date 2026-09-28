@@ -79,7 +79,7 @@ main {
 
 }
 section {
-- - /* padding: 1rem; adds padding to sections */
+/* padding: 1rem; adds padding to sections */
 }
 h1,
 h2,
@@ -140,7 +140,7 @@ footer {
   box-sizing: border-box; /* Includes padding and border in the element's total width and height */
   overflow-wrap: break-word; /* Allows long words to be broken and wrapped onto the next line */
 }
-@media {max-width: 32.5rem;}  {
+@media (max-width: 32.5rem)  {
 body {
   background-image: none;
   border: none;
@@ -155,7 +155,7 @@ body {
 } 
 header {
   background-image: none; /* bgimg:none */
-  padding: 0; /* p:0 8/
+  padding: 0; /* p:0 */
 }
 footer {
 padding: 1em; /* p:1em */
